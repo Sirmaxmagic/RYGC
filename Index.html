@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RYGC - NCR Aloha POS Services & Support</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">
+      <img src="rygc-logo.png" alt="RYGC Logo">
+      <h1>RYGC</h1>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contáctenos</a>
+    </nav>
+  </header>
+
+  <!-- Hero principal -->
+  <section id="inicio" class="hero">
+    <h2>Tu aliado en soluciones NCR Aloha POS</h2>
+    <p>Especialistas en NCR Aloha POS, Aloha Kitchen, Takeout & Delivery.</p>
+  </section>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros" class="nosotros">
+    <h2>Nosotros</h2>
+    <p><strong>Misión:</strong> Proveer soluciones de consultoría e implementación de sistemas POS de alta calidad.</p>
+    <p><strong>Visión:</strong> Ser el aliado líder en servicios NCR Aloha POS en la región.</p>
+    <p><strong>Objetivo:</strong> Convertirnos en tu socio estratégico indispensable.</p>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+    <div class="servicio">
+      <h3>NCR Aloha POS</h3>
+      <p>Implementación, configuración y soporte especializado.</p>
+    </div>
+    <div class="servicio">
+      <h3>Aloha Kitchen</h3>
+      <p>Optimización de operaciones en cocina con pantallas y flujos eficientes.</p>
+    </div>
+    <div class="servicio">
+      <h3>Aloha Takeout & Delivery</h3>
+      <p>Soluciones para pedidos en línea, takeout y delivery integradas con tu POS.</p>
+    </div>
+    <div class="servicio">
+      <h3>Soporte Técnico</h3>
+      <p>Mantenimiento preventivo y correctivo, asistencia remota y en sitio.</p>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctenos</h2>
+    <p>Envíenos sus datos y uno de nuestros consultores de TI se comunicará con usted en breve.</p>
+    <form class="form-contacto" action="procesar_formulario.php" method="post">
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono (Opcional):</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <label for="mensaje">Mensaje / Consulta:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <div class="terminos">
+        <input type="checkbox" id="acepto" name="acepto" required>
+        <label for="acepto">Acepto los <a href="#">Términos y Condiciones</a> y la <a href="#">Política de Privacidad</a>.</label>
+      </div>
+
+      <button type="submit" class="btn-enviar">ENVIAR</button>
+    </form>
+    <div class="info-extra">
+      <p><strong>Email:</strong> soporte@rygc.com</p>
+      <p><strong>Teléfono:</strong> +58 412-XXX-XXXX</p>
+      <p><strong>Ubicación:</strong> El Guapo, Estado Miranda, Venezuela</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 RYGC - NCR Aloha POS Services & Support</p>
+  </footer>
+</body>
+</html>
